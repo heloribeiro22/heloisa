@@ -1,0 +1,393 @@
+
+body {
+    min-height: 100vh;
+    background-image: url(./img/Mask\ group.png);
+    background-position: center;
+    background-size:cover;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 0 10vh;
+}
+
+.cabecalho__item {
+    display: flex;
+    justify-content: space-between;
+    gap: 12vh;
+}
+
+.cabecalho__item__menu {
+    text-decoration: none;
+    color: #7D38C6;
+    font-size: 23px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.banner__imagem {
+    margin-top: 15vh;
+    width: 800px;
+}
+
+.banner__imagem__logo {
+    width: 800px;
+    height: 200px;
+}
+
+.banner__texto {
+    margin-top: 50px;
+    font-size: 17px;
+    max-width: 40%;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    color: #4F4F4F;
+}
+
+.banner__botao {
+    margin-top: 50px;
+}
+
+.banner__botao__texto {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 17px;
+    cursor: pointer;
+    color: white;
+    background: #7D38C6;
+    margin-top: 10px;
+}
+
+.banner__segundo {
+    align-items: center;
+    text-align: center;
+    margin-top: 15vh;
+
+}
+
+.banner__imagem__segundo {
+    width: 70%;
+}
+
+.servicos {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.titulo__cards {
+    font-size: 16px;
+}
+
+.cards__titulo__texto {
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: #7D38C6;
+    font-size: 25px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+
+}
+
+.cards {
+    color: #324473;
+}
+
+.cards__texto__descricao {
+    font-size: 12px;
+}
+
+.cards__container {
+    width: 230px;
+    height: 180px;
+}
+
+.cards__imagem {
+    width: 230px;
+    height: 180px;
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 15vh
+}
+
+.comentario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px; 
+}
+
+.comentario__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border:#A5A5A5;
+    border-width: 0.5px ;
+    border-style: solid;
+    border-radius: 40px;
+    width: 450px;
+    padding: 0 0 15px 0;   
+}
+
+.comentario__descricao{
+    width: 300px;
+    margin-top: 30px;
+    color: #22366A;
+   
+}
+
+.comentario__titulo{
+    color: #23B7AF ;
+}
+
+.contato__texto{
+    align-items: center;
+    text-align: center;
+    padding: 22px;
+    color: #7D38C6;
+    font-size: 25px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+}
+
+.botao__informacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+    
+}
+
+.botao__texto{
+    display: flex;
+    gap: 10px;
+    border:#A5A5A5;
+    padding: 10px;
+    border-radius: 40px;
+    width: 360px;
+    align-items: center;
+    text-align:left;
+    font-size: 14px;
+    color: #333333;
+    background: #ECECEC; 
+    cursor: pointer;
+    
+}
+
+
+.rodape__container{
+    background: #7D38C6;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px; 
+    
+          
+}
+
+.rodape__conteudo {
+    text-align: left;
+    width: 220px;
+    padding: 10px 10px 30px 10px; 
+    margin-top: 30px; 
+    font-size: 12px; 
+    color: #ECECEC;
+    font-family: 'Arial Narrow Bold', sans-serif;   
+    border-bottom: 1px solid #A5A5A5;
+    margin-bottom: 10px;
+    
+}
+
+.rodape__lista{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;     
+}
+
+.rodape__texto{
+    text-decoration: none;
+    color: #ECECEC;
+
+}
+.rodape__icons{
+    display: flex;
+    gap: 15px;
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.rodape__imagem{
+    width: 131px;
+    height: 25px;
+    margin-top: 10px;
+    
+}
+
+.rodape__pesquisa{
+    border: 1px solid #A5A5A5;
+
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    width: 200px;
+    align-items: center;
+    background: transparent;
+
+    
+}
+
+.rodape__pesquisa__botao{
+    display: flex; 
+}
+
+.rodape__botao{
+    background: #23B7AF;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    width: 90px;
+    align-items: center;  
+    cursor: pointer;
+}
+.rodape__pesquisa::placeholder{
+    color: #FFFFFF;  
+}
+footer{
+    background: #7D38C6;
+}
+
+.rodape__direitos{
+    margin-bottom: 20px;
+    padding: 20px 20px 20px;
+    text-align: center;
+    color:#ECECEC;
+    font-size: 15px;
+}
+
+
+
+@media screen and (max-width: 932px) {
+    .cabecalho{
+        display: block; 
+        margin: 0 auto;
+    }
+
+    .cabecalho__item{
+        display: flex;
+        gap: 0;
+        margin-top: 2em;
+        
+    }
+
+    .logo__cabecalho{
+        display: none;
+    }
+
+    .banner__imagem {
+        margin-top: 8em;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .banner__imagem__logo {
+        width: 300px;
+        height: 100px;    
+
+}
+
+    .banner__texto{
+        max-width: 100%;
+    }
+
+    .banner__segundo {
+        margin-top: 5em;
+    }
+
+    .banner__imagem__segundo {
+        width: 100%;
+
+    }
+
+    .servicos{
+        display: grid;
+        gap: 10vh;
+
+    }
+    .cards{
+
+        background: white;
+        text-align: center;
+        border: 1px;
+        border-radius: 25px;
+        padding: 0 0 12px 0;
+        box-shadow: 0px 10px 11px 6px #c1b6b6;
+
+    }
+    
+    .cards__texto__descricao {
+        display: none;
+    }
+    .titulo__cards{
+        font-size: 14px;
+    }
+
+    body{
+        background-image: none;
+    }
+
+    .botao {
+        margin-top: 6em;
+
+    }
+
+    .comentario{
+        display: grid;
+
+    }
+
+    .comentario__container{
+        width: 325px;
+        display: flex;
+        align-items: center;
+        padding: 0 10px 8px;
+    }
+
+    .comentario__imagem{
+        height: 125px;
+
+    }
+    .contato__texto{
+        padding: 20px 50px;
+    }
+
+    .rodape__container{
+        display: grid;
+
+    }
+
+    .rodape__conteudo{
+       
+    }
+    
+}
